@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["J6P4W4L42B.org.frontierchurchdsm.discipleship"],
+        "components": [
+          { "/": "/card/*", "comment": "Shared Discipleship Deck cards" }
+        ]
+      }
+    ]
+  }
+}
