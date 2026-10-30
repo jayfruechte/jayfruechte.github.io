@@ -2,90 +2,57 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Card 24 · Solitude</title>
 <meta name="description" content="Spend Fighter Group today as a Mini-Solitude Retreat">
 <meta name="robots" content="noindex, nofollow">
-<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#4B87BE">
 <link rel="canonical" href="https://jayfruechte.github.io/card/24">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Card 24 · The Discipleship Deck">
 <meta property="og:description" content="Spend Fighter Group today as a Mini-Solitude Retreat">
 <meta property="og:url" content="https://jayfruechte.github.io/card/24">
+<meta property="og:image" content="https://jayfruechte.github.io/card/img/24.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="840">
+<meta property="og:image:alt" content="Card 24, the Solitude capstone. Spend Fighter Group today as a Mini-Solitude Retreat 1. Practice silent prayer together. 2. Write down on a sheet of paper anything that you sense God is saying or revealing to you. 3. Share that list with one another before leaving group.">
 <!-- TODO(app-store-id): once the app has an App Store ID, set appStoreID in scripts/make-card-pages.swift and regenerate. It adds Apple's Smart App Banner here:
      <meta name="apple-itunes-app" content="app-id=XXXXXXXXXX, app-argument=https://jayfruechte.github.io/card/24"> -->
 <style>
-:root { --bg: #FFFFFF; --ink: #111111; --soft: #5C564E; --gold: #DBA510; --goldText: #A87A00; }
-@media (prefers-color-scheme: dark) { :root { --bg: #141210; --ink: #F3F0EB; --soft: #B9B1A5; --goldText: #DBA510; } }
+/* This Week's hero (App/Views/ThisWeek/WeekHero.swift): the practice's color edge to edge,
+   faint rays, a poster title and the card with a deep shadow. Same in light and dark. */
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 700 17px/1.55 "Proxima Nova", "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif; }
-a { color: inherit; }
-.top { text-align: center; padding: 18px 20px; font: 800 12px/1 "Avenir Next", Futura, sans-serif; letter-spacing: .28em; text-transform: uppercase; }
-.band { background: #000; color: #fff; padding: 40px 20px 84px; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 38px), 0 100%); border-bottom: 0; }
-.band.gold { position: relative; }
-.wrap { max-width: 560px; margin: 0 auto; }
-.eyebrow { text-align: center; margin: 0 0 22px; font: 800 12px/1.4 "Avenir Next", Futura, sans-serif; letter-spacing: .24em; text-transform: uppercase; color: var(--gold); }
-.card { background: #050505; color: #FBF4E4; border-radius: 180px 180px 18px 18px; padding: 46px 26px 34px; text-align: center; outline: 1px solid rgba(255,255,255,.55); outline-offset: -10px; }
-.card .pebble { display: inline-block; background: #4B87BE; color: #050505; font: italic 700 15px/1.3 Charter, "Charter Black", Georgia, serif; padding: 12px 26px; border-radius: 48% 52% 50% 50% / 55% 50% 50% 45%; }
-.card .pebble b { display: block; font-size: 22px; }
-.card p.q { font: italic 800 clamp(22px, 6vw, 30px)/1.25 Charter, "Charter Black", Georgia, serif; margin: 26px 0 0; }
-.card p.lead { font: italic 600 16px/1.3 Charter, Georgia, serif; margin: 22px 0 -10px; }
-.card em { color: #4B87BE; font-style: italic; }
-main { padding: 8px 20px 24px; }
-h2 { font: italic 900 22px/1.2 "Avenir Next Condensed", "Avenir Next", Futura, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--goldText); text-align: center; margin: 34px 0 8px; }
-.lede { text-align: center; color: var(--soft); font-weight: 600; margin: 0 0 22px; }
-.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 0; margin: 0; list-style: none; }
-.tile { position: relative; color: #fff; padding: 22px 16px 20px; min-height: 190px; outline: 1px solid rgba(255,255,255,.5); outline-offset: -7px; }
-.tile h3 { margin: 0 0 8px; font: 900 15px/1.2 "Avenir Next", Futura, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
-.tile p { margin: 0; font-size: 14.5px; line-height: 1.4; font-weight: 600; }
-.tile a { color: #fff; }
-@media (max-width: 380px) { .tiles { grid-template-columns: 1fr; } .tile { min-height: 0; } }
-.btn { display: block; text-align: center; font: 800 13px/1.5 "Avenir Next", Futura, sans-serif; letter-spacing: .2em; text-transform: uppercase; text-decoration: none; padding: 17px 20px; margin-top: 14px; }
-.btn.solid { background: var(--gold); color: #000; }
-.btn.line { border: 2px solid var(--gold); color: var(--gold); }
-.reply { border: 2px solid var(--goldText); color: var(--goldText); }
-.app { background: #000; color: #fff; margin-top: 30px; padding: 70px 20px 44px; clip-path: polygon(0 38px, 100% 0, 100% 100%, 0 100%); }
-.app h2 { color: var(--gold); margin-top: 0; }
-.app p { text-align: center; font-weight: 600; margin: 0 0 10px; }
-footer { background: #000; color: #fff; text-align: center; padding: 6px 20px 40px; font-size: 14px; font-weight: 600; }
-footer b { display: block; font: 800 12px/1 "Avenir Next", Futura, sans-serif; letter-spacing: .28em; text-transform: uppercase; margin-bottom: 10px; }
-footer a { color: var(--gold); }
+html { background: #4B87BE; }
+body { margin: 0; min-height: 100vh; background: #4B87BE; color: #FBF0D7; overflow-x: hidden;
+       font: 400 17px/1.5 "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-text-size-adjust: 100%; }
+.rays { position: absolute; left: 50%; top: 330px; width: 900px; height: 900px; transform: translate(-50%, -50%); pointer-events: none; z-index: 0; }
+main { position: relative; z-index: 1; max-width: 520px; margin: 0 auto; padding: max(28px, env(safe-area-inset-top)) 20px max(28px, env(safe-area-inset-bottom)); }
+.eyebrow { font: 500 12px/1.3 Futura, "Futura-Medium", "Avenir Next", "Trebuchet MS", sans-serif; letter-spacing: .22em; text-transform: uppercase; color: #FBF0D7; margin: 0; }
+h1 { font-family: "Futura-CondensedExtraBold", "Futura Condensed ExtraBold", "Avenir Next Condensed", "Arial Narrow", Futura, sans-serif; font-weight: 800; font-stretch: condensed; font-size: 64px; line-height: 1; margin: 6px 0 4px; }
+.summary { font: italic 16px/1.4 Georgia, serif; margin: 0; }
+.card { display: block; width: min(68vw, 260px); height: auto; margin: 26px auto 30px; filter: drop-shadow(0 12px 22px rgba(0,0,0,.3)); }
+/* A black capstone keeps an edge on a dark page (Theme.blackEdge); the radius is CardFront's 16 of 300 × 420. */
+.card.capstone { border-radius: 5.33% / 3.81%; box-shadow: 0 0 0 1px rgba(251,240,215,.18); }
+.invite { margin: 0; }
+.btn { display: block; text-align: center; font: 500 14px/1.4 Futura, "Futura-Medium", "Avenir Next", "Trebuchet MS", sans-serif; letter-spacing: .2em; text-transform: uppercase; text-decoration: none;
+       padding: 16px 22px; margin: 22px 0 0; background: #FBF0D7; color: #4B87BE; }
+footer { margin-top: 36px; font-size: 13px; line-height: 1.6; opacity: .72; }
+footer p { margin: 0; } footer a { color: inherit; }
 </style>
 </head>
 <body>
-<div class="top">Frontier Church</div>
-<header class="band">
-  <div class="wrap">
-    <p class="eyebrow">The Discipleship Deck</p>
-    <article class="card" aria-label="Card 24">
-      <div class="pebble"><b>24</b>SOLITUDE</div>
-      
-      <p class="q">Spend Fighter Group today as a Mini-Solitude Retreat</p>
-    </article>
-  </div>
-</header>
-<main class="wrap">
-  <h2>Join the group this week</h2>
-  <p class="lede">Fighter Groups at Frontier take one card a week. Take this one the way they do, wherever you are.</p>
-  <ul class="tiles">
-    <li class="tile" style="background:#4B87BE"><h3>Read</h3><p>Read this week’s card on your own first.</p></li>
-    <li class="tile" style="background:#254C49"><h3>Talk it through</h3><p>With a friend, your family or your group. The question is meant to be said out loud.</p></li>
-    <li class="tile" style="background:#B98B3E"><h3>Pray</h3><p>For the people you talked with, by name.</p></li>
-    <li class="tile" style="background:#D2532F"><h3>A milestone</h3><p>This card closes a season. Bring paper and a pen, and plan extra time (about 90 minutes).</p></li>
-  </ul>
-  <a class="btn reply" href="sms:&body=Card%2024:%20what%20stood%20out%20to%20me%20was%20">Text a thought back to whoever sent this</a>
+<svg class="rays" viewBox="-450 -450 900 900" aria-hidden="true"><defs><radialGradient id="fade" r="0.5"><stop offset="0.35" stop-color="#fff"/><stop offset="0.93" stop-color="#fff" stop-opacity="0"/></radialGradient><mask id="m"><rect x="-450" y="-450" width="900" height="900" fill="url(#fade)"/></mask></defs><g mask="url(#m)" stroke="#A9CCEB" stroke-opacity=".16" stroke-width="5"><line x1="90.0" y1="0.0" x2="450.0" y2="0.0"/><line x1="88.6" y1="15.6" x2="443.2" y2="78.1"/><line x1="84.6" y1="30.8" x2="422.9" y2="153.9"/><line x1="77.9" y1="45.0" x2="389.7" y2="225.0"/><line x1="68.9" y1="57.9" x2="344.7" y2="289.3"/><line x1="57.9" y1="68.9" x2="289.3" y2="344.7"/><line x1="45.0" y1="77.9" x2="225.0" y2="389.7"/><line x1="30.8" y1="84.6" x2="153.9" y2="422.9"/><line x1="15.6" y1="88.6" x2="78.1" y2="443.2"/><line x1="0.0" y1="90.0" x2="0.0" y2="450.0"/><line x1="-15.6" y1="88.6" x2="-78.1" y2="443.2"/><line x1="-30.8" y1="84.6" x2="-153.9" y2="422.9"/><line x1="-45.0" y1="77.9" x2="-225.0" y2="389.7"/><line x1="-57.9" y1="68.9" x2="-289.3" y2="344.7"/><line x1="-68.9" y1="57.9" x2="-344.7" y2="289.3"/><line x1="-77.9" y1="45.0" x2="-389.7" y2="225.0"/><line x1="-84.6" y1="30.8" x2="-422.9" y2="153.9"/><line x1="-88.6" y1="15.6" x2="-443.2" y2="78.1"/><line x1="-90.0" y1="0.0" x2="-450.0" y2="0.0"/><line x1="-88.6" y1="-15.6" x2="-443.2" y2="-78.1"/><line x1="-84.6" y1="-30.8" x2="-422.9" y2="-153.9"/><line x1="-77.9" y1="-45.0" x2="-389.7" y2="-225.0"/><line x1="-68.9" y1="-57.9" x2="-344.7" y2="-289.3"/><line x1="-57.9" y1="-68.9" x2="-289.3" y2="-344.7"/><line x1="-45.0" y1="-77.9" x2="-225.0" y2="-389.7"/><line x1="-30.8" y1="-84.6" x2="-153.9" y2="-422.9"/><line x1="-15.6" y1="-88.6" x2="-78.1" y2="-443.2"/><line x1="-0.0" y1="-90.0" x2="-0.0" y2="-450.0"/><line x1="15.6" y1="-88.6" x2="78.1" y2="-443.2"/><line x1="30.8" y1="-84.6" x2="153.9" y2="-422.9"/><line x1="45.0" y1="-77.9" x2="225.0" y2="-389.7"/><line x1="57.9" y1="-68.9" x2="289.3" y2="-344.7"/><line x1="68.9" y1="-57.9" x2="344.7" y2="-289.3"/><line x1="77.9" y1="-45.0" x2="389.7" y2="-225.0"/><line x1="84.6" y1="-30.8" x2="422.9" y2="-153.9"/><line x1="88.6" y1="-15.6" x2="443.2" y2="-78.1"/></g></svg>
+<main>
+  <p class="eyebrow">Card 24 · Solitude</p>
+  <h1>CARD 24</h1>
+  <p class="summary">Meeting God in the quiet.</p>
+  <img class="card capstone" src="../img/24.png" width="300" height="420" alt="Card 24, the Solitude capstone. Spend Fighter Group today as a Mini-Solitude Retreat 1. Practice silent prayer together. 2. Write down on a sheet of paper anything that you sense God is saying or revealing to you. 3. Share that list with one another before leaving group.">
+  <p class="invite">Someone sent you this card. It closes a season of the deck: grab paper and a pen, and take your time with it.</p>
+  
+  <footer>
+    <p>From the Discipleship Deck · <a href="https://www.frontierchurchdsm.com/">Frontier Church</a>, Des Moines</p>
+    <p><a href="discipleship://card/24">Have the app? Open this card</a><!-- TODO(app-store-id): “ · Get the app” (https://apps.apple.com/app/id<ID>, or a public TestFlight link in testFlightURL) goes here. --></p>
+  </footer>
 </main>
-<section class="app">
-  <div class="wrap">
-    <h2>Keep going in the app</h2>
-    <p>The Discipleship Deck app keeps your group’s week in one place: the reading, the questions, prayer requests and answered prayers, and a reminder before you meet. Free, for any believer.</p>
-    <!-- TODO(app-store-id): the “Get the Discipleship Deck app” button (https://apps.apple.com/app/id<ID>, or a public TestFlight link in testFlightURL) goes here. -->
-    <a class="btn line" href="discipleship://card/24">Already have it? Open this card in the app</a>
-  </div>
-</section>
-<footer>
-  <b>Frontier Church</b>
-  <p>The Discipleship Deck is from <a href="https://www.frontierchurchdsm.com/">Frontier Church</a> in Des Moines, Iowa. This page has no ads, cookies or tracking.</p>
-</footer>
 </body>
 </html>
